@@ -1,0 +1,28 @@
+.olympic {
+	.olympic__country,
+	.olympic__medal {
+		.flexbox(center, flex-start, center, start);
+		min-height: 75px;
+	}
+
+	.olympic__medal {
+		.flexbox(center, center, center, center);
+	}
+
+	.olympic__name {
+		margin: 10px 0px 0px;
+	}
+
+	.olympic__number {
+		font-family: @font-bold;
+		color: @font-light;
+		.font-size(22, 22);
+		margin: 0px;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+
+		&.olympic__number--total {
+			color: @font-dark;
+			text-shadow: none;
+		}
+	}
+}

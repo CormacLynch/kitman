@@ -1,0 +1,29 @@
+nav,
+.navigation {
+	.navigation__holder {
+		display: block;
+		float: right;
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+		margin-right: 20px;
+	}
+
+	.navigation__item {
+		display: inline-block;
+		color: @font-dark;
+		list-style-type: none;
+		margin: 0px 20px;
+	}
+
+	.navigation__link {
+		.transition(all 0.3s ease-in-out);
+		.font-size(20, 20);
+		cursor: pointer;
+
+		&:hover,
+		&:focus {
+			color: rgba(0, 0, 0, 0.2);
+		}
+	}
+}
