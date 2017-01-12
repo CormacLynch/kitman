@@ -56,6 +56,7 @@ class App extends React.Component {
 	}
 
 	handleFilerBy = (filterBy) => {
+		// call transitioning to chnage the view
 		this.handleTransitioning();
 		// function used to filter the data based on what filter was chosen.
 		let newFilteredData = [];
